@@ -14,15 +14,10 @@ const IntroAnimation = () => {
 
     return (
         <div className={`intro-container ${showText ? 'start-animation' : ''}`}>
-            <h1>Star Wars</h1>
-            <p>In a galaxy far, far away...</p>
-            <p>
-                The Star Wars story spans an epic struggle between good and evil, in a galaxy filled with heroes, villains, and powerful mystical forces known as the Force. Throughout the saga, the Jedi and Sith, descendants of ancient civilizations, seek control of the galaxy, while key characters fight for freedom and justice.
-            </p>
-            <div className="d-flex justify-content-center flex-column mt-5  w-100">
-                <h2>¡Welcome to the Star Wars galaxy!</h2>
-                <p>Explore characters, planets, vehicles and more...</p>
-            </div>
+            <h1>¡Bienvenido a al universo de Star Wars!</h1>
+            <p>Explora los personajes, planetas, vehiculos
+                y guarda tus favoritos!</p>
+            <img src='https://preview.redd.it/m182f70smoe51.png?width=1080&crop=smart&auto=webp&s=422d1620917140967dbba2e702dbd8d411aed2e0'/>
 
         </div>
     );

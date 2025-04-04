@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    background-image: url('https://www.shutterstock.com/image-illustration/abstract-background-star-warp-hyperspace-260nw-1035076279.jpg');
+    background-image: url('https://st2.depositphotos.com/40002268/42836/i/450/depositphotos_428366430-stock-photo-abstract-neon-glowing-dynamic-light.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,16 +7,12 @@ body {
     font-family: 'Arial', sans-serif;
     height: 100vh;
     overflow: hidden;
-    position: relative;
   }
 
   .intro-container {
-    position: absolute;
-    top: 100%;
     text-align: center;
     opacity: 0;
-    animation: introAnimation 10s forwards;
-    transition: opacity 1s;
+    animation: introAnimation 5s forwards;
     padding: 50px;
   }
 
