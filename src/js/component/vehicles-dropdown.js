@@ -15,7 +15,7 @@ const VehicleDropdown = () => {
 
 	return (<>
 		<span className="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-			Vehicle
+			Vehículos
 		</span>
 		<ul className="dropdown-menu bg-dark">
 			{store.vehicleList && store.vehicleList.length > 0 ? (

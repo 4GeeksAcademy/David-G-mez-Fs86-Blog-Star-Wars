@@ -15,7 +15,7 @@ const CharacterDropdown = () => {
 
     return (<>
         <span className="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Characters
+            Personajes
         </span>
         <ul className="dropdown-menu bg-dark">
             {store.characterList && store.characterList.length > 0 ? (

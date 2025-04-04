@@ -15,7 +15,7 @@ const PlanetDropdown = () => {
 
     return (<>
         <span className="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Planets
+            Planetas
         </span>
         <ul className="dropdown-menu bg-dark">
             {store.planetList && store.planetList.length > 0 ? (

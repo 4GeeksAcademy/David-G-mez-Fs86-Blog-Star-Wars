@@ -18,7 +18,7 @@ const FavoriteDropdown = () => {
 
 	return (<>
 		<span className="btn btn-warning  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-			Favorites
+			Favoritos
 			<span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
 			{store.count}
 				<span className="visually-hidden">unread messages</span>
